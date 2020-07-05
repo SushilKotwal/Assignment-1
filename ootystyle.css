@@ -1,0 +1,206 @@
+*{
+	background:#fff;
+	padding:0;
+	margin:5px;
+}
+
+.logo img{
+
+float:left;
+width:250px;
+height:auto;
+margin-top:5px
+}
+
+.heading{
+color:green;
+font-size:2vw;
+font-family:berlin sans fb;
+position:absolute;
+top:18%;
+left:50%;
+transform:translate(-50%,-50%);
+}
+
+ul{
+float: right;
+list-style-type:none;
+margin-top : 25px
+}
+
+ul li{
+display:inline-block;
+}
+
+ul li a{
+text-decoration:none;
+color:#000;
+padding:5px 20px;
+border: 1px solid transparent;
+transition : 0.6s ease;
+}
+
+
+ul li a:hover{
+background-color: #000;
+color:#fff;
+}
+
+
+
+.main{
+max-width:1200px;
+margin:auto;
+}
+
+
+
+#i1, #i2, #i3, #i4, #i5{ display: none;}
+
+.container{
+		margin: 0 auto;
+		margin-top:160px;
+		position: relative;
+		width: 40%;
+		height: 37%;
+		padding-bottom: 0;
+	  user-select: none;
+	
+		border-radius:10px ; 
+	}
+
+	.container .slide_img{
+		position: absolute;
+		width: 100%;;
+		height: 100%;
+	}
+	.container .slide_img img{
+		width: inherit;
+		height: inherit;
+	}
+
+	 .prev, .next{
+		width: 5%;
+		height: inherit;
+		position: absolute;
+		top:0; 
+		background-color: rgba(88, 88, 88,.2);
+		color:rgba(244, 244, 244,.9);
+		z-index: 99;
+		transition: .45s;
+		cursor: pointer;
+		text-align: center;
+	}
+
+	.next{right:0;}
+	.prev{left:0;}
+
+	label span{
+		position: absolute;
+		font-size: 40px;
+		color:#000;
+		top: 50%;
+	 	transform: translateY(-50%);
+	}
+
+	.prev:hover, .next:hover{
+		transition: .3s;
+		background-color: rgba(88, 88, 89,.8);
+		color: #ffffff; 
+	}
+
+
+
+.slide_img{z-index: -1;}
+
+	#i1:checked ~ #one  ,
+	#i2:checked ~ #two  ,
+	#i3:checked ~ #three,
+	#i4:checked ~ #four ,
+	#i5:checked ~ #five 
+	{z-index: 9; animation: scroll 1s ease-in-out;}
+
+
+.container1
+{padding:30px;
+margin-top:90px;
+position:relative;
+		
+}
+
+.container1 .day1{
+padding:40px;
+}
+
+.container1 .day2{
+padding:40px;
+}
+
+.container1 .day3{
+padding:40px;
+}
+
+.container1 .day4{
+padding:40px;
+}
+
+.container1 .day5{
+padding:40px;
+}
+
+.container1 .day6{
+padding:40px;
+}
+
+.container1 .day7{
+padding:40px;
+}
+
+
+.day1 h1{
+padding:5px;
+background-color:#00FF7F;
+}
+
+.day2 h1{
+padding:5px;
+background-color:#00FF7F;
+}
+
+.day3 h1{
+padding:5px;
+background-color:#00FF7F;
+}
+
+.day4 h1{
+padding:5px;
+background-color:#00FF7F;
+}
+
+.day5 h1{
+padding:5px;
+background-color:#00FF7F;
+}
+
+.day6 h1{
+padding:5px;
+background-color:#00FF7F;
+}
+
+.day7 h1{
+padding:5px;
+background-color:#00FF7F;
+}
+
+
+.price{
+
+padding:0;
+position:relative;
+font-size:2vw;
+}
+
+.price p{
+padding:7px;
+background-color:#FFB6C1;
+}
